@@ -778,7 +778,7 @@ $settings['entity_update_backup'] = TRUE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'tumbicode',
+  'database' => '2128422_tumbicode',
   'username' => 'root',
   'password' => '',
   'prefix' => '',
