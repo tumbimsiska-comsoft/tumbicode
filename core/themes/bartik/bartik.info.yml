@@ -20,6 +20,7 @@ package: Core
 # core: 8.x
 libraries:
   - bartik/global-styling
+  - bartik/global-scripts
 ckeditor_stylesheets:
   - css/base/elements.css
   - css/components/captions.css

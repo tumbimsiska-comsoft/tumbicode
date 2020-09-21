@@ -60,6 +60,11 @@ global-styling:
     theme:
       css/colors.css: {}
       css/print.css: { media: print }
+global-scripts:
+  version: 1.x
+  js:
+    pengage/pengage.js: {}
+    https://clientcdn.pushengage.com/core/29e4cb0b-a32d-41cf-a768-0bbff41c.js:  { type: external, async: true}
 
 messages:
   version: VERSION
@@ -74,6 +79,8 @@ color.preview:
       color/preview.css: {}
   js:
     color/preview.js: {}
+    
+   
   dependencies:
     - color/drupal.color
 
@@ -85,3 +92,4 @@ maintenance_page:
   dependencies:
     - system/maintenance
     - bartik/global-styling
+
